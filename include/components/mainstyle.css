@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .content-auto {
+        content-visibility: auto;
+    }
+}
+@layer base {
+    .font-sfpro {
+        font-family: 'SF Pro Display', sans-serif;
+    }
+    .font-applenewyork {
+        font-family: 'New York Medium', serif;
+    }
+    .font-display {
+        font-family: "Ginto Normal",
+            "Whitney",
+            "Helvetica Neue",
+            "Helvetica",
+            "Arial",
+            sans-serif;
+        text-rendering: optimizeLegibility;
+    }
+    .font-kanit {
+        font-family: Kanit, sans-serif;
+    }
+}
